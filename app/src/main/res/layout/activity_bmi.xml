@@ -8,6 +8,16 @@
     android:background="@color/background">
 
     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/owner"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
         android:id="@+id/Bmi_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

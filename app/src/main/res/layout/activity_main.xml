@@ -335,4 +335,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/owner"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="28dp"
+        android:textColor="@color/text_color"
+        tools:layout_editor_absoluteY="75dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
